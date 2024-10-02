@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías - Recetas Deliciosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ff7043;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background-color: #ffa726;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .category-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px;
+            padding: 10px;
+        }
+        .category {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .category h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+        .category p {
+            padding: 0 15px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        footer {
+            background-color: #ff7043;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Categorías de Recetas</h1>
+        <p>Explora las diferentes categorías y encuentra tu próxima receta favorita</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#recetas">Recetas</a>
+        <a href="#categorias">Categorías</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="category-container">
+        <div class="category">
+            <img src="https://example.com/saludables.jpg" alt="Recetas Saludables">
+            <h3>Recetas Saludables</h3>
+            <p>Comida nutritiva y deliciosa para mantener una dieta equilibrada.</p>
+        </div>
+        <div class="category">
+            <img src="https://example.com/postres.jpg" alt="Postres">
+            <h3>Postres</h3>
+            <p>Deliciosos postres para endulzar tu día. ¡Perfectos para cualquier ocasión!</p>
+        </div>
+        <div class="category">
+            <img src="https://example.com/rapidas.jpg" alt="Recetas Rápidas">
+            <h3>Recetas Rápidas</h3>
+            <p>Platos rápidos y fáciles, ideales para quienes tienen poco tiempo para cocinar.</p>
+        </div>
+        <div class="category">
+            <img src="https://example.com/vegetarianas.jpg" alt="Recetas Vegetarianas">
+            <h3>Recetas Vegetarianas</h3>
+            <p>Sabrosas recetas sin carne, llenas de sabor y color.</p>
+        </div>
+        <div class="category">
+            <img src="https://example.com/pasta.jpg" alt="Pasta">
+            <h3>Platos de Pasta</h3>
+            <p>Descubre las mejores recetas de pasta, desde las clásicas hasta las más innovadoras.</p>
+        </div>
+        <div class="category">
+            <img src="https://example.com/internacional.jpg" alt="Cocina Internacional">
+            <h3>Cocina Internacional</h3>
+            <p>Explora sabores de todo el mundo con nuestras recetas internacionales.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Recetas Deliciosas. Todos los derechos reservados.</p>
+        <p><a href="mailto:contacto@recetasdeliciosas.com">Contáctanos</a></p>
+    </footer>
+
+</body>
+</html>
